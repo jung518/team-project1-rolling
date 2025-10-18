@@ -1,0 +1,174 @@
+/* 공통 버튼 스타일 
+ * 1) 일반 버튼
+ * <Button variant="primary" size="lg">확인</Button>
+ * <Button variant="secondary" size="md">취소</Button>
+*  2) 아이콘 + 텍스트 버튼
+ * <Button variant="outlined" size="sm" icon="/icons/smile.png">
+ *   좋아요
+ * </Button>
+ * 아이콘 버튼(동그라미에 플러스 버튼있는거, 쓰레기통 버튼)은 따로 PlusButton, TrashButton으로 Components안에 있어요
+*/
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+  border-radius: 8px;
+}
+
+/* 
+   Variant
+ */
+.primary {
+  background: #7b2ff7;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.primary:hover {
+  background: #861dee;
+}
+.primary:active {
+  background: #4d1fa3;
+}
+
+.primary:focus {
+  outline: 1px solid #9b51e0;
+}
+.primary:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+.primary.md {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.secondary {
+  background: #ffffff;
+  border: 1px solid #9935ff;
+  color: #861dee;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.secondary:active {
+  background: #861dee;
+  color: #9747ff;
+  background-color: #f8f0ff;
+}
+
+.secondary:focus {
+  outline: 1px solid #6e0ad1;
+  color: #9747ff;
+  background-color: #f8f0ff;
+}
+.secondary:hover {
+  background: #861dee;
+  color: #9747ff;
+  background-color: #f8f0ff;
+}
+.secondary:disabled {
+  border: none;
+  background-color: #cccccc;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.outlined {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  color: #181818;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.outlined:hover {
+  background: #f6f6f6;
+}
+.outlined:active {
+  background: #f6f6f6;
+}
+
+.outlined:focus {
+  outline: 1px solid #f6f6f6;
+}
+.outlined:disabled {
+  color: #ffffff;
+  border-color: #cccccc;
+  cursor: not-allowed;
+  background-color: #cccccc;
+}
+.outlined.md {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.outlined.sm {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.outlined.xs {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* 
+   Size
+ */
+.lg {
+  height: 56px;
+  font-size: 16px;
+}
+
+.md {
+  height: 40px;
+  font-size: 14px;
+}
+
+.sm {
+  height: 36px;
+  font-size: 14px;
+}
+
+.xs {
+  height: 28px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* 
+   Shape
+ */
+
+.icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  padding: 0;
+}
+
+/* 
+   Icon inside button
+ */
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.xs .btn-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+.circle .btn-icon,
+.trash .btn-icon {
+  margin: 0;
+}
