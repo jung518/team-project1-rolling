@@ -97,13 +97,8 @@ https://codeit-6team-rolling.vercel.app
 
 ## 🧠 프로젝트 회고 및 개발 블로그
 
-1. [Input 공통 컴포넌트 개발 회고](https://blog.naver.com/jwy030518/224022552796)  
+[React로 공용 컴포넌트 설계하며 배운 협업의 힘](https://blog.naver.com/jwy030518/224043294031)
 
-2. [ArrowButton 공통 컴포넌트 개발 회고](https://blog.naver.com/jwy030518/224043260612)  
-
-3. [PlusButton 공통 컴포넌트 개발 회고](https://blog.naver.com/jwy030518/224043286024)  
-
-4. [/post/{id} 상세 페이지 개발 회고](https://blog.naver.com/jwy030518/224043294031)  
 
 
 ## 🚀 실행 방법
@@ -117,3 +112,4 @@ cd portfolio-projects
 
 # 패키지 설치
 npm install
+
