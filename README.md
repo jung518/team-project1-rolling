@@ -97,7 +97,7 @@ https://codeit-6team-rolling.vercel.app
 
 ## 🧠 프로젝트 회고 및 개발 블로그
 
-[React로 공용 컴포넌트 설계하며 배운 협업의 힘](https://blog.naver.com/jwy030518/224043294031)
+[React로 공용 컴포넌트 설계하며 배운 협업의 힘](https://www.notion.so/29b5a4b8dec880fcb819e27f030e8c15?source=copy_link)
 
 
 
@@ -112,4 +112,5 @@ cd portfolio-projects
 
 # 패키지 설치
 npm install
+
 
